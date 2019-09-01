@@ -1,9 +1,9 @@
 <template>
-  <v-carousel cycle>
+  <v-carousel cycle :height="heightScreen">
     <v-carousel-item v-for="(item,i) in items" :key="i" :src="item.src">
       <v-row class="fill-height" align="center" justify="center">
-        <div class="display-3 white--text">
-          {{ i + 1}} Slide          
+        <div class="display-3 white--text font-weight-normal">
+          <span class="green--text font-weight-medium">Estamos aqui</span> para ajudá-los a chegar ao <span class="red--text font-weight-medium">Topo</span>
           <div class="text-center">
             <v-btn color="green darken-3">Saiba mais</v-btn>
           </div>
@@ -18,16 +18,17 @@ export default {
   data() {
     return {
       items: [
+        // {
+        //   src: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+        //   //author: "Photo by Maranda Vandergriff on Unsplash"
+        // },
         {
-          src: "https://images.unsplash.com/photo-1565728744382-61accd4aa148?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80",
-          //author: "Photo by Maranda Vandergriff on Unsplash"
-        },
-        {
-          src: "https://cdn.vuetifyjs.com/images/carousel/planet.jpg",
+          src: "https://images.unsplash.com/photo-1504610926078-a1611febcad3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
           //author: "Photo by Maranda Vandergriff on Unsplash"
         }
-      ]
+      ],
+      heightScreen: screen.height - 250,
     };
-  }
+  },
 };
 </script>
