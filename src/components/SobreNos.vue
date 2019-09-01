@@ -5,7 +5,7 @@
       <v-col cols="5">
         <p
           class="pr-10 text-justify headline font-weight-medium"
-        >Startup de soluções tecnológicas focada no desenvolvimento de sistemas personalizados. A Adsumus está habilitada a atender os mais v-diversos processos das empresas, automatizando tarefas rotineiras de forma integrada através de sistemas desktops, plataformas web, aplicativos e sites.</p>
+        >Startup de soluções tecnológicas focada no desenvolvimento de sistemas personalizados. A Adsumus está habilitada a atender os mais diversos processos das empresas, automatizando tarefas rotineiras de forma integrada através de sistemas desktops, plataformas web, aplicativos e sites.</p>
       </v-col>
       
       <v-col cols="5">
