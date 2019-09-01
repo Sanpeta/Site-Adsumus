@@ -1,5 +1,5 @@
 <template>
-  <v-carousel cycle :height="heightScreen">
+  <v-carousel cycle :height="heightScreen" hide-delimiters :show-arrows="false">
     <v-carousel-item v-for="(item,i) in items" :key="i" :src="item.src">
       <v-row class="fill-height" align="center" justify="center">
         <div class="display-3 white--text font-weight-normal">
@@ -27,7 +27,7 @@ export default {
           //author: "Photo by Maranda Vandergriff on Unsplash"
         }
       ],
-      heightScreen: screen.height - 250,
+      heightScreen: screen.height - 220,
     };
   },
 };
