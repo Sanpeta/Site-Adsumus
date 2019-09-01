@@ -14,11 +14,11 @@
       <div class="flex-grow-1"></div>
 
       <v-toolbar-items class="col-xs-8">
-        <v-btn text class="white--text font-weight-medium">Início</v-btn>
-        <v-btn text class="white--text font-weight-medium">Sobre Nós</v-btn>
-        <v-btn text class="white--text font-weight-medium">Nossos Serviços</v-btn>
-        <v-btn text class="white--text font-weight-medium">Contato</v-btn>
-        <v-btn text class="white--text font-weight-medium">Endereço</v-btn>
+        <v-btn text class="white--text font-weight-medium" to="/">Início</v-btn>
+        <v-btn text class="white--text font-weight-medium" to="/sobre">Sobre Nós</v-btn>
+        <v-btn text class="white--text font-weight-medium" to="/servico">Nossos Serviços</v-btn>
+        <v-btn text class="white--text font-weight-medium" to="/endereco">Endereço</v-btn>
+        <v-btn text class="white--text font-weight-medium" to="/contato">Contato</v-btn>
       </v-toolbar-items>
 
     </v-toolbar>
