@@ -9,7 +9,7 @@
       max-height="40"
     ></v-img>
 
-      <v-toolbar-title class="px-5 white--text font-weight-bold col-xs-4">ADSUMUS</v-toolbar-title>
+      <v-toolbar-title class="px-5 white--text font-weight-bold col-md-4 col-12">ADSUMUS</v-toolbar-title>
 
       <div class="flex-grow-1"></div>
 

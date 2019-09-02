@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
-import SobreNos from './components/SobreNos'
-import Servicos from './components/Servicos'
+// import SobreNos from './components/SobreNos'
+// import Servicos from './components/Servicos'
 
 Vue.use(Router)
 
@@ -15,15 +15,15 @@ export default new Router({
       name: 'home',
       component: Home
     },
-    {
-      path: '/sobre',
-      name: 'sobre',
-      component: SobreNos
-    },
-    {
-      path: '/servico',
-      name: 'servico',
-      component: Servicos
-    }
+    // {
+    //   path: '/sobre',
+    //   name: 'sobre',
+    //   component: SobreNos
+    // },
+    // {
+    //   path: '/servicos',
+    //   name: 'servicos',
+    //   component: Servicos
+    // }
   ]
 })
