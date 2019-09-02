@@ -23,11 +23,12 @@ export default {
         //   //author: "Photo by Maranda Vandergriff on Unsplash"
         // },
         {
+          // src: "@/src/assts/sliderFirst.jpg",
           src: "https://images.unsplash.com/photo-1504610926078-a1611febcad3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
           //author: "Photo by Maranda Vandergriff on Unsplash"
         }
       ],
-      heightScreen: screen.height - 250,
+      heightScreen: screen.height - 200,
     };
   },
 };
