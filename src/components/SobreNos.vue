@@ -1,6 +1,6 @@
 <template>
   <v-content class="white">
-    <h1 class="black-text mt-5" align="center">QUEM SOMOS</h1>
+    <h1 class="black-text mt-5" align="center">Sobre Nós</h1>
     <v-row class="mb-10" align="center" justify="center">
       <v-col class="col-md-5 col-12">
         <p
