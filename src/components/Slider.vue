@@ -2,8 +2,8 @@
   <v-carousel cycle :height="heightScreen" hide-delimiters :show-arrows="false">
     <v-carousel-item v-for="(item,i) in items" :key="i" :src="item.src">
       <v-row class="pl-3 fill-height" align="center" justify="center">
-        <div class="display-3 white--text font-weight-normal">
-          <span class="green--text font-weight-medium col-md-8 col-12 text-justify">Estamos aqui</span> para ajudá-los a chegar ao <span class="red--text font-weight-medium">Topo</span>
+        <div class="display-3 white--text font-weight-normal pr-5" align="center">
+          <span class="green--text font-weight-medium col-md-8 col-12 text--justify">Estamos aqui</span> para ajudá-los a chegar ao <span class="red--text font-weight-medium">Topo</span>
           <div class="text-center">
             <v-btn color="green darken-3">Saiba mais</v-btn>
           </div>
