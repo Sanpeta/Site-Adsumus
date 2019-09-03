@@ -20,3 +20,9 @@ export default {
   }
 };
 </script>
+
+<style>
+  * {
+    font-family: 'Source Code Pro', monospace;
+  }
+</style>
