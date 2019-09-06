@@ -17,7 +17,6 @@
         <v-btn text class="white--text font-weight-medium" to="/">Início</v-btn>
         <v-btn text class="white--text font-weight-medium" to="/sobre">Sobre Nós</v-btn>
         <v-btn text class="white--text font-weight-medium" to="/servicos">Nossos Serviços</v-btn>
-        <v-btn text class="white--text font-weight-medium" to="/time">Nosso Time</v-btn>
         <v-btn text class="white--text font-weight-medium" to="/contato">Contato</v-btn>
       </v-toolbar-items>
 
